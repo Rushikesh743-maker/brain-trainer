@@ -1,4 +1,4 @@
-# 🧠 Brain Train – Mini Games Website  
+# 🧠 BRAINPLAY – Mini Games Website  
 
 A collection of **fun, interactive, and brain-boosting mini-games** built with HTML, CSS, and JavaScript.  
 Challenge your **memory, reflexes, and focus** while having fun! 🎉  

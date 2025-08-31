@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brain Trainer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🧠 Brain Trainer</h1>
+
+  <div class="score-grid">
+    <div class="score-card" onclick="showGame('reaction')">
+      <div class="game-name">⚡ Reaction</div>
+      <div class="game-score" id="best-reaction">—</div>
+    </div>
+    <div class="score-card" onclick="showGame('memory')">
+      <div class="game-name">🃏 Memory</div>
+      <div class="game-score" id="best-memory">—</div>
+    </div>
+    <div class="score-card" onclick="showGame('pattern')">
+      <div class="game-name">🔴 Pattern</div>
+      <div class="game-score" id="best-pattern">—</div>
+    </div>
+    <div class="score-card" onclick="showGame('countdown')">
+      <div class="game-name">⏳ Countdown</div>
+      <div class="game-score" id="best-countdown">—</div>
+    </div>
+    <div class="score-card" onclick="showGame('cupball')">
+      <div class="game-name">🎯 Cup & Ball</div>
+      <div class="game-score" id="best-cupball">—</div>
+    </div>
+    <div class="score-card" onclick="showGame('aim')">
+      <div class="game-name">🟢 Aim Trainer</div>
+      <div class="game-score" id="best-aim">—</div>
+    </div>
+  </div>
+
+  <div id="game-area"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
